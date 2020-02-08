@@ -1,0 +1,85 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family:times new roman;
+}
+#sidebar{
+  position:fixed;
+  width:200px;
+  height:100%;
+  background:#151719;
+  left:-200px;
+}
+#sidebar.active{
+  left:0px;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #b3b3b3;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  margin-top: 50px;
+  margin-left: 60px;
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 39%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
