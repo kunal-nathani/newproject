@@ -105,8 +105,5 @@ background: #0044cc;
 color:white;
 }
 .Login h2{
-  margin: 10px;
-}
-.Login h4{
-  margin: 10px;
+  text-align: center;
 }

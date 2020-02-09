@@ -53,20 +53,23 @@ body {
 }
 /* Create three unequal columns that floats next to each other */
 .column {
+  background: blue;
   float: left;
   padding: 10px;
 }
 
 /* Left and right column */
 .column.side {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-left: 60px;
+  margin-right: 10px;
   width: 25%;
 }
 
 /* Middle column */
 .column.middle {
-  width: 39%;
+  margin-top: 20px;
+  width: 35%;
 }
 
 /* Clear floats after the columns */
