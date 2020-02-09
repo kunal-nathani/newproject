@@ -27,32 +27,32 @@
 </ul>
 </div>
 		<div class="Login">
-			<form action=".html" method="post">
+			<form action="C:\xampp\htdocs\cregistration.php" action="home.html" method="post">
 			<h2>Personal Information</h2>
 			<label for="First Name">First Name</label>
-    	    <input type="text" id="First Name" name="First Name" placeholder="Your First Name.."/required>
+    	    <input type="text" id="fname" name="fname" placeholder="Your First Name.."/required>
     	    <label for="Middle Name">Middle Name</label>
-    		<input type="text" id="Middle Name" name="Middle Name" placeholder="Your Middle Name.."/required>
+    		<input type="text" id="mname" name="mname" placeholder="Your Middle Name.."/required>
 			<label for="Last Name">Last Name</label>
-    		<input type="text" id="Last Name" name="Last Name" placeholder="Your Last Name.."/required>
+    		<input type="text" id="lname" name="lname" placeholder="Your Last Name.."/required>
 			<label for="Phone no 1">Phone no 1</label>
-    		<input type="number" id="Phone no 1" name="Phone no 1" placeholder="Your Phone no 1.." maxlength="10" 
+    		<input type="number" id="phone1" name="phone1" placeholder="Your Phone no 1.." maxlength="10" 
     		/required>
     		<label for="Phone no 2">Phone no 2</label>
-    		<input type="number" id="Phone no 2" name="Phone no 2" placeholder="Your Phone no 2.." maxlength="10" 
+    		<input type="number" id="phone2" name="phone2" placeholder="Your Phone no 2.." maxlength="10" 
     		/required>
     		<label for="Address">Address</label>
-    	    <input type="text" id="Address" name="Address" placeholder="Your StreetName.." row="5"column=""30/required>
+    	    <input type="text" id="addr" name="addr" placeholder="Your StreetName.." row="5"column=""30/required>
     	    <label for="State">State</label>
-    	    <input type="text" id="State" name="State" placeholder="Your State.."/required>
+    	    <input type="text" id="state" name="state" placeholder="Your State.."/required>
 			<label for="City:">City:</label>
-    	    <input type="text" id="City" name="City" placeholder="Your City.."/required>	
+    	    <input type="text" id="city" name="city" placeholder="Your City.."/required>	
     	    <label for="Pincode">Pincode</label>
-    		<input type="number" id="Pincode" name="Pincode" placeholder="Your Pincode.." maxlength="6" /required>	
+    		<input type="number" id="pincode" name="pincode" placeholder="Your Pincode.." maxlength="6" /required>	
 			<label for="email">Email</label>
     		<input type="email" id="email" name="email" placeholder="Your Email id.."/required>
      		<label for="Password">Password</label>
-    		<input type="Password" id="Password" name="Password" placeholder="Your Password.."
+    		<input type="Password" id="passwd" name="passwd" placeholder="Your Password.."
     		pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
   			<label for="Age">Age</label>
     		<input type="number" id="age" name="age" placeholder="Your Age.." maxlength="3" /required>
@@ -60,7 +60,7 @@
 <br>
   <label for="blood">Choose Blood Group:</label>
 
-		<select id="blood">
+		<select id="blood" name= "blood">
   			<option value="A+">A+</option>
  			<option value="A+">A-</option>
   			<option value="B+">B+</option>
