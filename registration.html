@@ -1,0 +1,89 @@
+<html>
+	<head>
+	<title>Registration page</title>	
+	<link rel="stylesheet" type="text/css" href="css/no.css">
+	<script src="js/new.js"></script>
+	</head>
+<body>
+	<header>
+		<div class="header">
+  		<h2> DOCTOR PATIENT PORTAL</h2>
+		</div>
+		<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  <ul>
+  <li><a href="homepage2.html">Home</a></li>
+  <li><a href="login.html">Login page</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="#">History</a></li>
+  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="#">Appointment</a></li>
+  <li><a href="#">Cancellation</a></li>
+  <li><a href="#">Feedback</a></li>
+</ul>
+</div>
+		<div class="Login">
+		<u><h2>Registration Form:</h2></u>
+			<form action=".html" method="post">
+			<u><h4>Personal Information:</h4></u>
+			<label for="First Name">First Name</label>
+    	    <input type="text" id="First Name" name="First Name" placeholder="Your First Name.."/required>
+    	    <label for="Middle Name">Middle Name</label>
+    		<input type="text" id="Middle Name" name="Middle Name" placeholder="Your Middle Name.."/required>
+			<label for="Last Name">Last Name</label>
+    		<input type="text" id="Last Name" name="Last Name" placeholder="Your Last Name.."/required>
+			<label for="Phone no 1">Phone no 1</label>
+    		<input type="number" id="Phone no 1" name="Phone no 1" placeholder="Your Phone no 1.." maxlength="10" 
+    		/required>
+    		<label for="Phone no 2">Phone no 2</label>
+    		<input type="number" id="Phone no 2" name="Phone no 2" placeholder="Your Phone no 2.." maxlength="10" 
+    		/required>
+    		<label for="Address">Address</label>
+    	    <input type="text" id="Address" name="Address" placeholder="Your StreetName.." row="5"column=""30/required>
+    	    <label for="State">State</label>
+    	    <input type="text" id="State" name="State" placeholder="Your State.."/required>
+			<label for="City:">City:</label>
+    	    <input type="text" id="City" name="City" placeholder="Your City.."/required>	
+    	    <label for="Pincode">Pincode</label>
+    		<input type="number" id="Pincode" name="Pincode" placeholder="Your Pincode.." maxlength="6" /required>	
+			<label for="email">Email</label>
+    		<input type="email" id="email" name="email" placeholder="Your Email id.."/required>
+     		<label for="Password">Password</label>
+    		<input type="Password" id="Password" name="Password" placeholder="Your Password.."
+    		pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+  			<label for="Age">Age</label>
+    		<input type="number" id="age" name="age" placeholder="Your Age.." maxlength="3" /required>
+
+<br>
+  <label for="blood">Choose Blood Group:</label>
+
+		<select id="blood">
+  			<option value="A+">A+</option>
+ 			<option value="A+">A-</option>
+  			<option value="B+">B+</option>
+			<option value="B-">B-</option>
+			<option value="O+">O+</option>
+ 			<option value="O-">O-</option>
+			<option value="AB+">AB+</option>
+ 			<option value="AB-">AB-</option>
+		</select><br>
+  				
+  			
+				Gender:<br>
+			<p>Please select your gender:</p>
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br>
+						
+				<input type="submit" value="Submit">
+
+s
+			</form>
+		</div>
+	</header>
+</body>
+</html>

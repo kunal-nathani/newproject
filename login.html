@@ -1,0 +1,44 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="css/abc.css">
+<script src="js/new.js"></script>
+</head>
+<body>
+  <div class="header">
+  <h2>DOCTOR PATIENT PORTAL</h2>
+</div>
+<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  <ul>
+  <li><a href="homepage2.html">Home</a></li>
+  <li><a href="login.html">Login page</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="#">History</a></li>
+  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="#">Appointment</a></li>
+  <li><a href="#">Cancellation</a></li>
+  <li><a href="#">Feedback</a></li>
+</ul>
+</div>
+	
+	<div class="Login">
+	<h2>Login</h2>
+	<form  action="homepage2.html" method="post">
+ <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email id.."required>
+     <label for="Password">Password</label>
+    <input type="Password" id="Password" name="Password" placeholder="Your Password.."
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"required>
+
+    <input type="submit" value="Submit">
+  </form>
+	</div>	
+</body>
+</html>
