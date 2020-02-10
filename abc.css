@@ -6,7 +6,7 @@
   
 /* Style the header */
 .header {
-  background-color: #008080;
+  background-color: #307277;
   padding: 10px;
   text-align: center;
   color: #ffffff ;
@@ -36,34 +36,35 @@
   display:block;
   width:30px;
   height:5px;
-  background: #008080;
+  background: #307277;
   margin:5px 0px;
 }
 input[type=email], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 15px;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
+  box-align: center;
   box-sizing: border-box;
 }
 
 input[type=password], select {
-  width: 100%;
-  padding: 12px 20px;
+  width: 50%;
+  padding: 20px 20px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 5px;
   box-sizing: border-box;
 }
 
 input[type=submit] {
-  width: 100%;
+  width: 20%;
   background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
+  padding: 20px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
@@ -86,7 +87,9 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 100%;
+  position: absolute;
+  width: 10%;
+  right: 660px;
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
@@ -101,19 +104,19 @@ input[type=submit]:hover {
 }
 
 .Login div {
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
 .Login{
-padding: 70px;
+padding:100px;
 border: 3px solid #0044cc;
-margin: 80px;
-background: #008080;
+margin:100px 300px;
+background: #307277;
 color:white;
 }
 .Login h2{
   text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
