@@ -7,22 +7,27 @@
   position:fixed;
   width:200px;
   height:100%;
-  background:#151719;
+  background: lightseagreen;
   left:-200px;
+  color: white;
 }
 #sidebar.active{
   left:0px;
 }
 #sidebar ul li{
-  color:rgba(230,230,230,0.9);
   list-style:none;
   padding:15px 10px;
   border-bottom:1px solid rgba(100,100,100,0.3);
 }
+#sidebar ul li:hover{
+  background-color: lightblue;
+  transition: 0.4s ; 
+  color: white;
+}
 #sidebar .toggle-btn{
   position:absolute;
   left:230px;
-  top:20px;
+  top:10px;
 }
 #sidebar .toggle-btn span{
   display:block;
@@ -53,9 +58,10 @@ body {
 }
 /* Create three unequal columns that floats next to each other */
 .column {
-  background: blue;
+  background: lightseagreen;
   float: left;
   padding: 10px;
+  color: white;
 }
 
 /* Left and right column */
@@ -70,6 +76,11 @@ body {
 .column.middle {
   margin-top: 20px;
   width: 35%;
+
+}
+
+.column.middle u{
+  text-decoration-color: white;
 }
 
 /* Clear floats after the columns */
