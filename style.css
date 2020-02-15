@@ -11,10 +11,13 @@
 	height: 50px;
 	display: block;
 	background-color:  lightseagreen;
+	overflow: wrap;
 
 }
-.nav.img{
-	max-height: 20px;
+.nav img{
+	position: absolute;
+	width: 55px;
+	padding:2px 0 0 10px;
 }
 
 .nav a{
