@@ -18,27 +18,22 @@
   position:fixed;
   width:200px;
   height:100%;
-  background: lightseagreen;
+  background:#151719;
   left:-200px;
-  color: white;
 }
 #sidebar.active{
   left:0px;
 }
 #sidebar ul li{
+  color:rgba(230,230,230,0.9);
   list-style:none;
   padding:15px 10px;
   border-bottom:1px solid rgba(100,100,100,0.3);
 }
-#sidebar ul li:hover{
-  background-color: lightblue;
-  transition: 0.4s ; 
-  color: white;
-}
 #sidebar .toggle-btn{
   position:absolute;
   left:230px;
-  top:10px;
+  top:20px;
 }
 #sidebar .toggle-btn span{
   display:block;
