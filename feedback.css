@@ -1,0 +1,171 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Times New Roman;
+}
+/* Style the header */
+.new {
+  background-color: #008080;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff ;
+  margin: -20px;
+}
+.new img
+{
+  margin: 0px;
+  position: absolute;
+  width: 70px;
+}
+form.example input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid black;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  margin-top: 5px;
+  float: right;
+  width: 5%;
+  padding: 7px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.new a{
+  float: right;
+  color: white;
+  margin-left: 5px;
+  size: 10px;
+}
+#sidebar{
+  margin-top: -60px;
+  position:fixed;
+  width:200px;
+  height:100%;
+  background:#151719;
+  left:-200px;
+}
+#sidebar.active{
+  left:0px;
+  transition: 0.7s;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+}
+
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.feedback{
+padding: 70px;
+border: 3px solid #008080;
+margin: 80px;
+background: #008080;
+color:white;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+.feedback h2{
+  text-align: center;
+}
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+fieldset, label { margin: 0; padding: 0; }
+body{ margin: 20px; }
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 

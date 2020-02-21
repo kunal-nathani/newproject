@@ -1,0 +1,124 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family:times new roman;
+}
+
+#sidebar{
+  margin-top: 0px;
+  position:fixed;
+  width:200px;
+  height:100%;
+  background:#151719;
+  left:-200px;
+}
+#sidebar.active{
+  left:0px;
+  transition: 0.7s;
+}
+#sidebar ul li{
+  color:rgba(230,230,230,0.9);
+  list-style:none;
+  padding:15px 10px;
+  border-bottom:1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+  position:absolute;
+  left:230px;
+  top:20px;
+}
+#sidebar .toggle-btn span{
+  display:block;
+  width:30px;
+  height:5px;
+  background:#151719;
+  margin:5px 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.new img
+{
+  margin: 0px;
+  position: absolute;
+  width: 70px;
+}
+/* Style the header */
+.new {
+  background-color: #008080;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff ;
+}
+form.example input[type=text] {
+  float: right;
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid black;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: right;
+  width: 5%;
+  padding: 7px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.new a{
+  float: right;
+  color: white;
+  margin-left: 5px;
+  size: 10px;
+}
+
+.para{
+padding: 20px;
+margin-left: 200px;
+margin-right: 200px;
+margin-top: 50px;
+text-align:center;
+color:  white;
+background: #008080;
+
+}
+.para h3{
+  padding: 20px;
+}
+.para p{
+  padding: 20px;
+  margin : 5px;
+}
+.footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 5px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
+}
