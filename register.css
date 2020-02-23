@@ -8,7 +8,7 @@
 }
   
 #sidebar{
-  margin-top: -100px;
+  margin-top: -5px;
   position:fixed;
   width:200px;
   height:100%;
@@ -112,13 +112,16 @@ input[type=submit]:hover {
 .new img
 {
   margin: 0px;
-  position: absolute;
+  position: fixed;
   width: 70px;
 }
 /* Style the header */
 .new {
+  position: fixed;
   background-color: #008080;
   padding: 10px;
+  width: 100%;
+  margin-top: -100px;
   text-align: center;
   color: #ffffff ;
 }
@@ -158,4 +161,21 @@ form.example::after {
   color: white;
   margin-left: 5px;
   size: 10px;
+}
+.footer{
+  text-align-last: right;
+   margin-top: 100px;
+   padding: 5px;
+   background: #008080;
+
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer ul li{
+  display: inline-block;
+  
+}
+.footer ul li a{
+color: white;
 }

@@ -1,99 +1,156 @@
+
 *{
+
    margin:0;
-	padding:0;
-	font-family:Times New Roman;
+
+  padding:0;
+
+  font-family:Times New Roman;
+
 }
 
+.new {
+  position: fixed;
+
+  background-color: #008080;
+ margin-top: -10px;
+  padding: 10px;
+  width: 99%;
+  height: auto;
+  text-align: center;
+
+  color: #ffffff ;
+
+}
 
 #sidebar{
-  margin-top: -100px;
+  margin-top: 90px;
+
   position:fixed;
+
   width:200px;
+
   height:100%;
+
   background:#151719;
+
   left:-200px;
+
+  transition: 0.7s;
+
 }
+
 #sidebar.active{
+
   left:0px;
   transition: 0.7s;
-}
-#sidebar ul li{
-  color:rgba(230,230,230,0.9);
-  list-style:none;
-  padding:15px 10px;
-  border-bottom:1px solid rgba(100,100,100,0.3);
-}
-#sidebar .toggle-btn{
-  position:absolute;
-  left:230px;
-  top:20px;
-}
-#sidebar .toggle-btn span{
-  display:block;
-  width:30px;
-  height:5px;
-  background:#151719;
-  margin:5px 0px;
-}
-input[type=password], select {
-  width:100%;
-  padding: 12px 20px;
-  margin: 10px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type=email], select {
-  width:100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-input[type=submit] {
-  width: 40%;
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 12px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin :2px;
 
 }
+
+#sidebar ul li{
+
+  color:rgba(230,230,230,0.9);
+
+  list-style:none;
+
+  padding:15px 10px;
+
+  border-bottom:1px solid rgba(100,100,100,0.3);
+
+}
+
+#sidebar .toggle-btn{
+
+  position:absolute;
+
+  left:230px;
+
+  top:20px;
+
+}
+
+#sidebar .toggle-btn span{
+
+  display:block;
+
+  width:30px;
+
+  height:5px;
+
+  background:#151719;
+
+  margin:5px 0px;
+
+}
+
+/* Style inputs with type="text", select elements and textareas */
+
+input[type=text], select, textarea {
+
+  width: 100%; /* Full width */
+
+  padding: 12px; /* Some padding */ 
+
+  border: 1px solid #ccc; /* Gray border */
+
+  border-radius: 4px; /* Rounded borders */
+
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+
+  margin-top: 6px; /* Add a top margin */
+
+  margin-bottom: 16px; /* Bottom margin */
+
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+
+
+/* Style the submit button with a specific background color etc */
+
+input[type=submit] {
+
+  background-color: #4CAF50;
+
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
+
   background-color: #45a049;
-}
-.Login{
-  border: 3px solid #008080;
-  background-color: #008080;
-  padding: 60px;
-  margin-top: 100px;
-  margin-left: 400px;
-  margin-right: 400px;
-  border-radius: 10px;
-  box-shadow:#808080; 
-  color: white;
-}
-.Login h2{
-  text-align: center;
-  text-underline-position: center;
-}
-.Login a{
-  text-align: center;
 
 }
-.Login {
-  text-align: center;
+
+
+
+/* Add a background color and some padding around the form */
+
+.container {
+  margin:160px;
+  border-radius: 5px;
+  background-color: #008080;
+  padding: 20px;
+  color: white;
+
 }
+
 .footer{
   text-align-last: right;
-   margin-top: 150px;
+   margin-top: 100px;
    padding: 5px;
    background: #008080;
 
@@ -107,17 +164,6 @@ input[type=submit]:hover {
 }
 .footer ul li a{
 color: white;
-}
-.new {
-
-  background-color: #008080;
-
-  padding: 10px;
-
-  text-align: center;
-
-  color: #ffffff ;
-
 }
 .new a{
   float: right;
@@ -135,6 +181,7 @@ form.example input[type=text] {
 }
 
 form.example button {
+  margin-top: 6px;
   float: right;
   width: 5%;
   padding: 7px;
@@ -157,6 +204,23 @@ form.example::after {
 .new img
 {
   margin: 0px;
-  position: sticky;
+  position: fixed;
   width: 70px;
+}
+.b p{
+
+ color: white;
+
+ border-radius: 5px;
+
+ background: #008080; 
+
+ margin:10px;
+ border: 2px solid #000000;
+ width: 16%; 
+
+}
+b
+{
+  margin-top: 100px;
 }
