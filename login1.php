@@ -1,21 +1,24 @@
 <?php
-if(isset($_POST['email1'])){$email = $_POST['email1'];}
-if(isset($_POST['passwd1'])){$pass = $_POST['passwd1'];}
 
-$conn = new mysqli('localhost','root','','project1') ;
+$email = $_POST['email'];
+$passwd = $_POST['passwd'];
+
+$conn = new mysqli('localhost','root','','project1');
 if($conn->connect_error){
 	die('connection failed :' .$conn->connect_error);
 }
 else
 {
-	$query=mysqli_query("select * from signup where email='".$email."' AND passwd='".$pass."'");
-	$rowcount=mysqli_num_rows($query);
-	if($rowcount==1 ){
-			header('Location: homepage2.html');
+
+	$result = mysqli_query($conn,"select * from signup where email='$email' and passwd='$passwd'");
+
+	$row= mysqli_fetch_array($result);
+
+	if($row['email']==$email && $row['passwd']==$passwd){
+		header('Location: homepage.html');
 	}
 	else{
-			header('Location: registration.html');
+		echo "wrong password!";
 	}
 }
-
 ?>
