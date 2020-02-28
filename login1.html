@@ -1,0 +1,67 @@
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="css/logi.css">
+<script src="js/new.js"></script>
+</head>
+<body>
+  <div class="new">
+  <div class="img1" align="left"><image src="pimage.png"></div>
+  <a href="login.html">/Login</a><a href="registration.html">Signup</a>                
+<h2>DOCTOR PATIENT PORTAL</h2>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+	
+<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  <ul>
+  <li><a href="homepage2.html">Home</a></li>
+  <li><a href="login.html">Login page</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="#">Appointment</a></li>
+  <li><a href="#">Cancellation</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</div>
+	 <header>
+	<div class="Login">
+	<u><h2>Login</h2></u>
+	<form  action="login.php" method="post"><t>
+ 	<label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email id.."><br>
+    <div class="incorrect">
+    <p>The password you wrote is incorrect</p>
+  </div>
+     <label for="Password">Password</label>
+    <input type="Password" id="Password" name="passwd" placeholder="Your Password.."
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+
+    <input type="submit" value="Submit"><br>
+      OR
+    <br>
+   <a href="registration.html">Signup</a>
+  </form>
+	</div>
+</div>
+<div class="footer">
+  <ul>
+    <li><a href="about.html">Contactus</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</div>  
+</header>
+</body>
+</html>
