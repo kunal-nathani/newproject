@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/appoint.css">
+	<script src="js/new.js"></script>
+	<title>Appointment Booking</title>
+</head>
+<body>
+
+	<div class="new">
+  <div class="img" align="left"><image src="logo.jpg"></div>
+  <a href="login.html">Login</a><a href="registration.html">Signup</a>                
+<h2>DOCTOR PATIENT PORTAL</h2>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- The form -->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+		<header>
+		<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  <ul>
+  <li><a href="homepage2.html">Home</a></li>
+  <li><a href="login.html">Login page</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="appointment.html">Appointment</a></li>
+  <li><a href="#">Cancellation</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</div>
+<div class="appt">
+  <form action="homepage2.html" action="post">
+    <u><h3>Appointment booking</h3></u>
+    <label for="id">Id of Doctor:</label><br>
+    <input type="number" name="id" id="id" placeholder="Enter id of doctor.." /required><br>
+    <label for="Doctor">Name of Doctor:</label>
+    <input type="text" id="doctor" name="doctor" placeholder="Your Doctor.."/required><br>
+    <label for="hospital">Name of Hospital/Clinic:</label>
+    <input type="text" id="hospital" name="hospital" placeholder="The Hospital doctor belongs.."/required><br>
+    <label for="Date">Date of appointment:</label>
+    <input type="date" id="date" name="date" /required><br>
+    <label for="time">Time of appointment:</label>
+    <input type="time" id="time" name="time" /required><br>
+    <input type="submit" name="submit"onclick="myalert()"> 
+   <script> 
+        function myalert() { 
+            alert("Welcome to to our portal\n " + 
+                "Thanks!fof booking appointment" +  
+                         "Your appointment is booked"); 
+        } 
+    </script> 
+  </form>
+</div>
+
+</header>
+<div class="footer">
+  <ul>
+    <li><a href="about.html">Contactus</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</footer>
+</body>
+</html>

@@ -165,9 +165,11 @@ input[type=submit]:hover {
 color: white;
 }
 .new a{
+  margin: 3px;
+  padding: 1px;
+  background-color:#01B636;
   float: right;
   color: white;
-  margin-left: 5px;
   size: 10px;
 }
 form.example input[type=text] {
@@ -202,9 +204,11 @@ form.example::after {
 }
 .new img
 {
-  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   position: fixed;
-  width: 70px;
+  width: 50px;
+  height: auto;
 }
 .b p{
 

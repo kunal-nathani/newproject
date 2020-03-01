@@ -1,11 +1,9 @@
 *{
-  margin:0px;
-  padding:0px;
-  font-family:times new roman;
+  margin: 0px;
+  font-family: "Times New Roman", Times, serif; 
 }
-
 #sidebar{
-  margin-top: 55px;
+  margin-top: -95px;
   position:fixed;
   width:200px;
   height:100%;
@@ -34,29 +32,31 @@
   background:#151719;
   margin:5px 0px;
 }
-
-* {
-  box-sizing: border-box;
-}
 .new img
 {
-  margin-top: 5px;
+ margin-top: 5px;
   margin-bottom: 5px;
   position: fixed;
   width: 50px;
   height: auto;
 }
-.new {
+.new{
+  margin-top: -200px;
   position: fixed;
+  width: 98%;
   background-color: #008080;
- margin-top:-40px;
-  padding: 10px;
-  width: 100%;
-  height: auto;
   text-align: center;
-
-  color: #ffffff ;
-
+  color: white;
+  height: auto;
+  padding: 15px;
+}
+.new a{
+  margin: 3px;
+  padding: 1px;
+  background-color:#01B636;
+  float: right;
+  color: white;
+  size: 10px;
 }
 form.example input[type=text] {
   float: right;
@@ -68,7 +68,7 @@ form.example input[type=text] {
 }
 
 form.example button {
-  margin-top: 4px;
+  margin-top: 5px;
   float: right;
   width: 5%;
   padding: 7px;
@@ -89,17 +89,9 @@ form.example::after {
   clear: both;
   display: table;
 }
-.new a{
-   margin: 3px;
-  padding: 1px;
-  background-color:#01B636;
-  float: right;
-  color: white;
-  size: 10px;
-}
 .footer{
-  text-align-last: right;
-   margin-top: 100px;
+   text-align-last: right;
+   text-align: bottom;
    padding: 5px;
    background: #008080;
 
@@ -113,23 +105,6 @@ form.example::after {
 }
 .footer ul li a{
 color: white;
-}
-
-.main{
-  margin-top: 30px;
-  text-align: center;
-  text-decoration-style: dashed;
-  text-decoration: underline;
-  text-decoration-style:dotted;
-  }
-input[type=number], select {
-  width:100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
 }
 input[type=text], select {
   width:100%;
@@ -149,27 +124,46 @@ input[type=date], select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.about{
-    border: 3px solid #008080;
-  background-color: #008080;
-  padding: 60px;
-  margin-top: 100px;
+input[type=number], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit], select {
+  background: #00b33c;
+  color: white;
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #00b33c;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=time], select {
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.appt{
+  font-size: large;
+  color:white; 
   margin-left: 200px;
   margin-right: 200px;
-  border-radius: 10px;
- box-shadow:#808080; 
-  color: white;
+  margin-top: 190px; 
+  margin-bottom: 100px;
+  padding:50px;
+  background:#008080;
 }
-input[type=submit] {
-  width: 40%;
-  background-color: #4CAF50;
+.appt h3{
   color: white;
-  padding: 14px 20px;
-  margin: 12px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin :2px;
-  box-shadow: #f2f2f2;
+  text-align: center;
 }
-

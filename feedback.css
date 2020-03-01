@@ -13,9 +13,11 @@
 }
 .new img
 {
-  margin: 0px;
-  position: absolute;
-  width: 70px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  position: fixed;
+  width: 50px;
+  height: auto;
 }
 form.example input[type=text] {
   float: right;
@@ -49,9 +51,11 @@ form.example::after {
   display: table;
 }
 .new a{
+   margin: 3px;
+  padding: 1px;
+  background-color:#01B636;
   float: right;
   color: white;
-  margin-left: 5px;
   size: 10px;
 }
 #sidebar{
