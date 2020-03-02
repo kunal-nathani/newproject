@@ -3,10 +3,12 @@
 	padding:0;
 	font-family:Times New Roman;
 }
-
+.new h2{
+   text-shadow: 1px 1px 2px black, 0 0 25px #008080, 0 0 5px white;
+}
 
 #sidebar{
-  margin-top: -43px;
+  margin-top: -39px;
   position:fixed;
   width:200px;
   height:100%;
@@ -79,12 +81,12 @@ input[type=submit]:hover {
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 10px;
-  box-shadow:#808080; 
+  box-shadow: 10px 10px 5px grey;
   color: white;
 }
 .Login h2{
+  text-shadow: 1px 1px 2px black, 0 0 25px #008080, 0 0 5px white;
   text-align: center;
-  text-underline-position: center;
 }
 .Login a{
   text-align: center;
@@ -162,12 +164,13 @@ form.example::after {
   height: auto;
 }
 .new a{
-   margin: 3px;
+  margin: 2px;
   padding: 1px;
   background-color:#01B636;
   float: right;
   color: white;
   size: 10px;
+  border:1px solid white;
 }
 .login p{
   font-size: x-small;

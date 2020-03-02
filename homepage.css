@@ -3,8 +3,8 @@
   padding:0px;
   font-family:times new roman;
 }
-.background{
-  background-image: url("background.jpg");
+.new h2{
+   text-shadow: 1px 1px 2px black, 0 0 25px #008080, 0 0 5px white;
 }
 
 #sidebar{
@@ -43,7 +43,6 @@
 }
 .new {
   position: fixed;
-
   background-color: #008080;
   margin-top: -120px;
   padding: 20px;
@@ -55,12 +54,21 @@
 
 }
 .new img
-{
+{ 
   margin-top: 5px;
   margin-bottom: 5px;
   position: fixed;
   width: 50px;
   height: auto;
+}
+.new a{
+  margin: 2px;
+  padding: 1px;
+  background-color:#01B636;
+  float: right;
+  color: white;
+  size: 10px;
+  border:1px solid white;
 }
 form.example input[type=text] {
   float: right;
@@ -92,24 +100,15 @@ form.example::after {
   clear: both;
   display: table;
 }
-.new a{
-  margin: 3px;
-  padding: 1px;
-  background-color:#01B636;
-  float: right;
-  color: white;
-  size: 10px;
-}
-
 .para{
 padding: 20px;
 margin-left: 200px;
 margin-right: 200px;
 margin-top: 110px;
 text-align:center;
-color:  white;
+ text-shadow: 0 0 3px #ffffff, 0 0 5px  #ffffff;
 background: #008080;
-
+ box-shadow: 10px 10px 5px grey;
 }
 .para h3{
   padding: 20px;
@@ -134,4 +133,7 @@ background: #008080;
 }
 .footer ul li a{
 color: white;
+}
+.para img{
+   box-shadow: 10px 10px;
 }
