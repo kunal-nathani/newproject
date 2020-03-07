@@ -15,7 +15,7 @@ else
 	$row= mysqli_fetch_array($result);
 
 	if($row['email']==$email && $row['passwd']==$passwd){
-		header('Location: homepage.html');
+		header('Location: login1.html');
 	}
 	else{
 		echo "wrong password!";
