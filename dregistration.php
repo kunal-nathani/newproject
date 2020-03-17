@@ -17,7 +17,7 @@ if($conn->connect_error){
 }
 else
 {
-	$stmt = $conn->prepare("INSERT INTO register(fname,number1,gender,addr,state,city,pincode,university,doctor)
+	$stmt = $conn->prepare("INSERT INTO doctor(fname,number1,gender,addr,state,city,pincode,university,doctor)
 		values(?,?,?,?,?,?,?,?,?)");
 		echo $conn -> error;
 		$stmt->bind_param("sissssiss", $fname, $number1, $gender, $addr, $state, $city, $pincode, $university, $doctor);
