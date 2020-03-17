@@ -37,6 +37,7 @@
 </ul>
 </div>
 <br>
+<form action="organdonation.php" method="post">
 <div class="name">
 <label for="first Name">First Name</label>
           <input type="text" id="Fname" name="fname" placeholder="Your First Name.." maxlength="10" /required></br>
@@ -48,7 +49,7 @@
           <input type="text" id="Lname" name="lname" placeholder="Your Last Name.." maxlength="10" /required></br>
 <br>
 <label for="Mobile number">Mobile number</label>
-          <input type="number" id="Mno" name="mno" placeholder="Your mobile number.." maxlength="10" /required></br>
+          <input type="number" id="Mno" name="phone" placeholder="Your mobile number.." maxlength="10" /required></br>
 <br>
 <label for="Age">Age</label>
           <input type="number" id="Age" name="age" placeholder="Donor's age < 50" maxlength="2" /required></br>
@@ -410,10 +411,10 @@
         <input type="email" id="email" name="email" placeholder="Donor's Email id.."/required></br>
 <br>
 <label for="Organ to donate">Organ name</label>
-        <input type="text" id="oname" name="oname" placeholder="Organ name.."/required>
+        <input type="text" id="oname" name="organ" placeholder="Organ name.."/required>
 <br>
 <label for="Gender">Choose Gender:</label>
-      <select id="Gender" name="Gender">
+      <select id="Gender" name="gender">
       <option value="Male">Male</option>
       <option value="Female">Female</option>
       <option value="Others">Others</option>
@@ -437,7 +438,7 @@
       <textarea id="drug" name="drug" rows="4" cols="50" placeholder="Please list any drug allergies..">
       </textarea><br>
       Have you ever had (Please check all that apply):<br>
-      <input type="checkbox" id="diesease" name="diesease" value="Anemia">
+      <input type="checkbox" id="diesease" name="disease" value="Anemia">
       <label for="disease"> Anemia </label><br>
       <input type="checkbox" id="disease" name="disease" value="Asthma">
       <label for="disease"> Asthma </label><br>
@@ -497,13 +498,14 @@
       <label for="disease"> Emphysema </label><br>
      Other illnesses:<br>
       <label for="Other illnesses"></label>
-      <input type="text" id="Other illnesses" name="Other illnesses" placeholder="Your Other illnesses.."maxlength="10"/required>
+      <input type="text" id="Other illnesses" name="others" placeholder="Your Other illnesses.."maxlength="10"/required>
 </br>
 <br>
 <input type="submit" value="Submit"><br>
 </br>
 
 </div>
+</form>
 
 <div class="footer">
   <ul>
