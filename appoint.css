@@ -96,7 +96,7 @@ form.example::after {
 .footer{
    text-align-last: right;
    text-align: bottom;
-   padding: 5px;
+   padding: 15px;
    background: #008080;
 
 }

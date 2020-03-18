@@ -96,7 +96,7 @@ input[type=submit]:hover {
 .footer{
   text-align-last: right;
    margin-top: 170px;
-   padding: 10px;
+   padding: 15px;
    background: #008080;
 
 }
@@ -170,12 +170,3 @@ form.example::after {
   size: 10px;
   border:1px solid white;
 }
-.que a{
-
-  border-radius: 50px;
-  margin: 5px;
-  background-color: 00cc00;
-} 
-.que a:hover{
-  background-color: aqua;
- }

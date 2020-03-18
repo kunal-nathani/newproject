@@ -8,11 +8,18 @@
 }
 /* Style the header */
 .new {
+  position: fixed;
+
   background-color: #008080;
-  padding: 10px;
+  margin-top: -160px;
+  margin-left: -30px;
+  padding: 15px;
+  width: 98%;
+  height: auto;
   text-align: center;
+
   color: #ffffff ;
-  margin: -20px;
+
 }
 .new img
 {
@@ -63,7 +70,7 @@ form.example::after {
   display: table;
 }
 #sidebar{
-  margin-top: -60px;
+  margin-top: -55px;
   position:fixed;
   width:200px;
   height:100%;
@@ -115,9 +122,10 @@ input[type=text], select {
   box-shadow: 10px 10px 5px grey;
   padding: 70px;
   border: 3px solid #008080;
-  margin: 80px;
+  margin: 130px;
   background: #008080;
   color:white;
+  margin-top: 150px;
 }
 input[type=submit] {
   width: 100%;
@@ -179,3 +187,4 @@ h1 { font-size: 1.5em; margin: 10px; }
 .rating > input:checked ~ label:hover,
 .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
 .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+

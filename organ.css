@@ -3,8 +3,11 @@
   padding:0;
   font-family:Times New Roman;
 }
-.header{
-
+.name img{
+  margin-left:150px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px #008080;
 }
   
 #sidebar{
@@ -170,7 +173,7 @@ form.example::after {
 .footer{
   text-align-last: right;
    margin-top: 100px;
-   padding: 5px;
+   padding: 15px;
    background: #008080;
 
 }
