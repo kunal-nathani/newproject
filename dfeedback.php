@@ -26,9 +26,10 @@
   <span></span>
   </div>
   <ul>
-  <li><a href="ahomepage.html">Home</a></li>
-  <li><a href="alogin.html">Login page</a></li>
-  <li><a href="afeedback.html">Feedback</a></li>
+  <li><a href="dhomepage2.html">Home</a></li>
+  <li><a href="dlogin.html">Login page</a></li>
+  <li><a href="dregister.html">Registration</a></li>
+  <li><a href="dfeedback.html">Feedback</a></li>
 </ul>
 </div>
  <style type="text/css">
