@@ -1,17 +1,18 @@
- <html>
+<html>
 <head>
 <Title>Efficient portal</Title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="css/choose.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
 <script src="js/new.js"></script>
 </head>
+<body>
+  <header>
   <div class="new">
   <div class="img1" align="left"><image src="logo.jpg"></div>
   <a href="login.html">Login</a><a href="registration.html">Signup</a>                
 <h2>DOCTOR PATIENT PORTAL</h2>
 <p>your name:</p>
-<body>
 <div id="sidebar">
 <div class="toggle-btn" onclick="togglesidebar()">
   <span></span>
@@ -28,54 +29,20 @@
   <li><a href="feedback.php">Feedback</a></li>
 </ul>
 </div>
-<body>
-	<style type="text/css">
-	body{
-		background-image: url("lol4.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-	}	
-	.patient{
-	    margin-top:200px;
-		text-align: center;
-		margin-right: 350px;
-	}
-	.doctor{
-		margin-top: -210px;
-		text-align: center;
-	}
-	#Patient
-	{
-		position: sticky;
-		border: 3px solid black;
-		width: 150px;
-		height: auto;
-		background-color: white;
-		padding: 20px;	
-	}
-	#Doctor
-	{	
-		position: sticky;
-		border: 3px solid black;
-		width: 150px;
-		height: auto;
-		background-color: white;
-		padding: 20px;
-		padding-top: 20px; 
-		padding-bottom:25px;
-	}
-	
-	</style>
-<div class="button">
-	<div class="patient">
-		<a href="login.html"><img src="patient.png" id="Patient"></a><br>
-		<a href="login.html">Patient</a>
-	</div>
-	<div class="doctor">
-		<a href="dlogin.html"><img src="doctor.png" id="Doctor"></a><br>
-		<a href="dlogin.html">Doctor</a>
-	</div>
-
+ <style type="text/css">
+  body{
+    position: sticky;
+    background-image: url("lol4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  </style>
+<div class="qwerty">
+  <form action="login.html" method="post">
+<h2>Inorder to continue you must login first</h2>
+<button type="submit" value="login">Login</button>
+</form>
+</div>
 </div>
 <div class="footer">
   <ul>
@@ -83,5 +50,6 @@
     <li><a href="feedback.html">Feedback</a></li>
 </ul>
 </div>
+</header>
 </body>
 </html>

@@ -169,14 +169,13 @@ color: white;
   <span></span>
   </div>
   <ul>
-  <li><a href="homepage2.html">Home</a></li>
-  <li><a href="login.html">Login page</a></li>
-  <li><a href="registration.html">Registration</a></li>
-  <li><a href="history.html">History</a></li>
-  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="homepage2.php">Home</a></li>
+  <li><a href="choose.html">Login page</a></li>
+  <li><a href="registration.php">Registration</a></li>
+  <li><a href="history.php">History</a></li>
   <li><a href="#">Appointment</a></li>
-  <li><a href="organdonation.html">Organ Donation</a></li>
-  <li><a href="feedback.html">Feedback</a></li>
+  <li><a href="organdonation.php">Organ Donation</a></li>
+  <li><a href="feedback.php">Feedback</a></li>
 </ul>
 </div>
   <style type="text/css">

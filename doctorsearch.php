@@ -1,0 +1,49 @@
+ <html>
+<head>
+<Title>Efficient portal</Title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/homepage.css">
+<script src="js/new.js"></script>
+</head>
+<body>
+  <header>
+  <div class="new">
+  <div class="img1" align="left"><image src="logo.jpg"></div>
+  <a href="login.html">Login</a><a href="registration.html">Signup</a>                
+<h2>DOCTOR PATIENT PORTAL</h2>
+<p>your name:</p>
+ <style type="text/css">
+  body{
+    position: sticky;
+    background-image: url("lol4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
+  </style>
+<div id="sidebar">
+<div class="toggle-btn" onclick="togglesidebar()">
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+  <ul>
+  <li><a href="homepage2.html">Home</a></li>
+  <li><a href="login.html">Login page</a></li>
+  <li><a href="registration.html">Registration</a></li>
+  <li><a href="history.html">History</a></li>
+  <li><a href="#">Doctor recomended</a></li>
+  <li><a href="#">Appointment</a></li>
+  <li><a href="organdonation.html">Organ Donation</a></li>
+  <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</div>
+<div class="footer">
+  <ul>
+    <li><a href="contact.html">Contactus</a></li>
+    <li><a href="feedback.html">Feedback</a></li>
+</ul>
+</div>
+</header>
+</body>
+</html>

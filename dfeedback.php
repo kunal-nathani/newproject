@@ -11,12 +11,7 @@
   <div class="img1" align="left"><image src="logo.jpg"></div>
   <a href="login.html">Login</a><a href="registration.html">Signup</a>                
 <h2>DOCTOR PATIENT PORTAL</h2>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- The form -->
-<form class="example" action="action_page.php">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
+<p>your name:</p>
 </div>
 		<header>
 		<div id="sidebar">
@@ -26,10 +21,9 @@
   <span></span>
   </div>
   <ul>
-  <li><a href="dhomepage2.html">Home</a></li>
-  <li><a href="dlogin.html">Login page</a></li>
-  <li><a href="dregister.html">Registration</a></li>
-  <li><a href="dfeedback.html">Feedback</a></li>
+  <li><a href="dhomepage.php">Home</a></li>
+  <li><a href="dlogin.php">Login page</a></li>
+  <li><a href="dfeedback.php">Feedback</a></li>
 </ul>
 </div>
  <style type="text/css">
