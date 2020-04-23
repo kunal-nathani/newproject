@@ -80,3 +80,27 @@
         </form> 
    </body>
 </html>
+<?php
+$index = 1;
+if(isset($_POST['dname'])){$dname = $_POST['dname'];}
+if(isset($_POST['pname'])){$pname = $_POST['pname'];}
+if(isset($_POST['dprice'])){$dprice = $_POST['dprice'];}
+if(isset($_POST['icharges'])){$icharges = $_POST['icharges'];}
+if(isset($_POST['discount'])){$discount = $_POST['discount'];}
+$conn = new mysqli('localhost','root','','project1') ;
+if($conn->connect_error){
+      die('connection failed :' .$conn->connect_error);
+}
+else
+{
+      $stmt = $conn->prepare("INSERT INTO signup (dname,pname,dprice,icharges,discount)
+            values(?,?,?,?,?)");
+            echo $conn -> error;
+            $stmt->bind_param("ssiii", $dname, $pname, $dprice, $icharges, $discount);
+            $stmt->execute();
+            echo "registration successful";
+            header('Location: homepage2.php');
+            $stmt->close();
+            $conn->close();
+}
+?>

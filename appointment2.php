@@ -152,7 +152,7 @@ color: white;
 }
   </style>
   <div class="new">
-  <div class="img1" align="left"><image src="logo.jpg"></div>
+  <div class="img1" align="left"><image src="images/logo.jpg"></div>
   <a href="login.html">Login</a><a href="registration.html">Signup</a>                
 <h2>DOCTOR PATIENT PORTAL</h2>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Efficient Doctor Patient Portal</title>
+  <title>Efficient Doctor Patient Portal</title>
   <script src="js/new.js"></script>
 </head>
 <body>
-	<style type="text/css">
+  <style type="text/css">
     *{
   margin:0px;
   padding:0px;
@@ -125,14 +125,14 @@ form.example::after {
 .footer ul li a{
 color: white;
 }
-		#Pasttable{
-			margin-top: 200px;
+    #Pasttable{
+      margin-top: 200px;
       margin-left:100px; 
-			 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-			 background-color: #87CEEB;
-			 border:2px solid black;
-		}
-		
+       font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       background-color: #87CEEB;
+       border:2px solid black;
+    }
+    
 
 #Pasttable td, #Pasttable th {
   border: 1px solid #ddd;
@@ -150,9 +150,9 @@ color: white;
   background-color:#87CEEB;
   color: white;
 }
-	</style>
+  </style>
   <div class="new">
-  <div class="img1" align="left"><image src="logo.jpg"></div>
+  <div class="img1" align="left"><image src="images/logo.jpg"></div>
   <a href="login.html">Login</a><a href="registration.html">Signup</a>                
 <h2>DOCTOR PATIENT PORTAL</h2>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -190,12 +190,8 @@ color: white;
   <a href="appointment2.php">New records</a>
 <table style="width:80%" id="Pasttable">
   <tr>
-    <th>Serial number</th>
-    <th>Doctor name</th>
     <th>Date</th>
     <th>Time</th>
-    <th>Reports</th>
-    <th>Total Cost</th>
   </tr>
   <tr>
     <th> rahul</th>
